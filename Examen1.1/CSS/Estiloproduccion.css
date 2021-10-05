@@ -1,0 +1,29 @@
+body{
+    background-color: cornflowerblue;
+    font-family: 'Times New Roman', 'Times', 'serif';
+    color: rgb(0, 0, 0);
+    font: 1.2rem;
+    line-height: 2.4rem;
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 1.3rem; 
+}
+p{
+    margin-bottom: 1.6rem;
+}
+
+
+ul {
+    border: 1px solid #555;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}

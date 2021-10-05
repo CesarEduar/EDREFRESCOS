@@ -1,0 +1,79 @@
+body{
+    font-family: 'Times New Roman', 'Times', 'serif';
+    color: rgb(0, 0, 0);
+    font: 1.2rem;
+    line-height: 2.4rem;
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 1.3rem; 
+}
+p{
+    margin-bottom: 1.6rem;
+}
+
+.Contenedor{
+    width: 85%;
+    max-width: 900px; /* sera el maximo ancho que tendra los contenedores*/
+    margin: 0 auto;
+}
+
+.header{
+    background: rgb(20, 25, 26);
+    color: cornsilk;
+    padding: 2rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.Logo-Nav-Contenedor{
+    display: flex;
+    justify-content: space-between; /* Separa el logo y la lista hacia los lados */
+    align-items: center;
+}
+
+header a{
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.Navigator ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.Navigator ul li{
+    display: inline-block;
+}
+
+.Navigator ul li a{
+    
+    padding: 0.5rem 1rem;
+    transition: all 0.7s linear;
+    border-radius: 5px;
+}
+
+.Navigator ul li a:hover{
+        background: chocolate;
+}
+
+.Logo{
+    letter-spacing: 15px;
+    font-size: 1.2em;
+}
+
+.footer{
+    background: rgb(0, 0, 0);
+    padding: 3rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+main{
+    padding-top: 6rem;
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: #186d6d;
+}
+
+nav {
+    list-style-type:nocne;
+    margin:0;
+    padding:0;
+    width: 300px;
+    background-color: #83bbb3;
+    border-style: solid;
+}
+nav li a{
+    text-decoration: line-through;
+    color:black;
+    padding: 0px 0px;
+    display: contents;
+    text-align: center;
+}
+nav li a:hover{
+    background-color: #5897FA;
+    color: white;
+}
+.active{
+    background-color: antiquewhite;
+    color: white;
+}
+
+ul {
+    list-style: inside;
+}
